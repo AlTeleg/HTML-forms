@@ -1,0 +1,64 @@
+.popover {
+    font-size: 10;
+    position: absolute;
+    z-index: 999;
+    border-radius: 0px 0px 3px 3px;
+    padding: 5px 3px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+}
+
+.popover:after {
+    content: '';
+    border: 12px solid transparent;
+    border-top: 12px solid black;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    bottom: -24px;
+    width: 0;
+    z-index: 999;
+ }
+
+.title {
+    font-size: 12;
+    font-weight: 600;
+    background-color: lightgrey;
+    position: absolute;
+    z-index: 999;
+    border-radius: 3px 3px 0px 0px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 3px;
+    border-bottom: none;
+}
+
+.btn {
+    width: 600px;
+    text-align: center;
+    user-select: none;
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+    margin-top: 300px;
+    position: relative;
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+#btn2 {
+    width: 100px;
+}
+
+#btn3 {
+    width: 250px;
+}
+
+
+
+
